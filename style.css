@@ -1,1 +1,16 @@
+#landingPage{
+
+    /* margin-top:100px */
+    margin-top: 250px;
+    text-align: center;
+}
+button{
+    font-size: 25px;
+    color: red;
+ 
+}
+
+.hide{
+    display: none;
+}
 
