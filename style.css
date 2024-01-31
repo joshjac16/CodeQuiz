@@ -1,14 +1,29 @@
-#landingPage{
+body{
 
-    /* margin-top:100px */
-    margin-top: 250px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
     text-align: center;
 }
+#landingPage,#ques1,#result{
+    width: 530px;
+    align-items: center;
+    justify-content: center;
+}
+#startBtn{
+    margin: auto;
+}
 button{
+    
+    display: block;
     font-size: 25px;
     color: red;
  
 }
+
 
 .hide{
     display: none;

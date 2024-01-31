@@ -8,34 +8,49 @@
     <title>Document</title>
 </head>
 
+<html>
+
 <body>
+    <button id="highBtn">highscores</button>
+    <div id="highscores" class="hide">
+        
+        <button id="back">Go Back</button>
+    </div>
 
-    <body>
+    <div id="landingPage">
 
-        <div id="landingPage">
-            <h1>Code Quiz</h1>
-            <p>
-                Instructions Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Similique perferendis aperiam minima vitae sint. Consequuntur inventore
-                nostrum, illum odit, totam rem aliquid neque nisi voluptate fugit tempore
-                ullam! Nisi, nesciunt?
-            </p>
-            <button id="startBtn">Start Quiz</button>
+        <h1>Code Quiz</h1>
+        <p>
+            Instructions Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Similique perferendis aperiam minima vitae sint. Consequuntur inventore
+            nostrum, illum odit, totam rem aliquid neque nisi voluptate fugit tempore
+            ullam! Nisi, nesciunt?
+        </p>
+        <button id="startBtn">Start Quiz</button>
+
+    </div>
+    <div id="ques1" class="hide">
+        <h2></h2>
+        <div id="btnwrap"></div>
+        <div id="result">
+            <h3 id="CorrectAns"></h3>
+            <h3 id="WrongAns"></h3>
         </div>
-        <div id="ques1" class="hide">
-            <h2>hello</h2>
-            <div id="btnwrap">
+    </div>
+    <div id="finalPg" class="hide">
+        <h1>All Done!</h1>
+        <p>Your final score is <span id="score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+    </div>
 
-            </div>
 
-        </div>
+    </div>
 
-        <div>
-            <h3 id="CorrectAns" class="hide">Correct</h3>
-            <h3 id="WrongAns" class="hide">Wrong</h3>
-        </div>
-        <script src="./script.js"></script>
+    <script src="./script.js"></script>
 
-    </body>
+</body>
 
 </html>
