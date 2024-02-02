@@ -1,14 +1,30 @@
 body{
+    background-color: lightgray;
+}
+main{
 
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+li{
+  font-size: 30px;
+  font-family:"Copperplate", Fantasy;  
+}
+
 h1{
     text-align: center;
+    font-family:"Copperplate", Fantasy; 
 }
-#landingPage,#ques1,#result{
+h2{
+    font-family:"Copperplate", Fantasy;  
+}
+p{
+    font-family:"Copperplate", Fantasy;  
+    font-size: 25px;
+}
+#landingPage,#ques1,#result,#finalPg,#highscores{
     width: 530px;
     align-items: center;
     justify-content: center;
@@ -17,11 +33,22 @@ h1{
     margin: auto;
 }
 button{
-    
+    background-color: white;
+    border-radius: 6px;
+    border: 2px solid rgb(26, 71, 26);
     display: block;
     font-size: 25px;
-    color: red;
+    color: brown;
+    font-family:"Copperplate", Fantasy;  
  
+}
+button:hover{
+    background-color: rgb(26, 71, 26);
+    color: white;
+}
+#back,#clear,#submit{
+    display: flex;
+    margin-inline:auto;
 }
 
 
